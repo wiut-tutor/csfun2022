@@ -23,7 +23,7 @@ def any_base_octal(number):
 
 
 if __name__ == '__main__':
-    # what do you have to put here to call any_base_to_decimal?
+    # what do you have to put here to call any_base_to_decimal?? details need to be put here
     menuoption = int (input('enter option: \n1) Convert into decimal from any base \n2) Convert into hex from any base \n3) Convert into octal from any base'))
     if menuoption==1:
         any_base_to_decimal(input("Enter number "), int(input("Enter base:")))
